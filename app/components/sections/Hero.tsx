@@ -36,7 +36,7 @@ export default function Hero({ language, translations }: HeroProps) {
                                 <i className="fas fa-paper-plane"></i>
                                 <span>{translations[language]?.['hero-cta'] || 'Contact me'}</span>
                             </a>
-                            <a href="/CV_Ny_Aina_Fitiavana_FITAHIANTSOA.pdf" className="border-2 border-white/30 backdrop-blur-lg text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-indigo-700 transition-all duration-300 flex items-center gap-2">
+                            <a href={translations[language]?.['cv-link'] || '/cv/ny_aina_fitiavana_fitahiantsoa_cv-en.pdf'} target="_blank" className="border-2 border-white/30 backdrop-blur-lg text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-indigo-700 transition-all duration-300 flex items-center gap-2">
                                 <i className="fas fa-download"></i>
                                 <span>{translations[language]?.['hero-download'] || 'Download CV'}</span>
                             </a>
@@ -55,7 +55,7 @@ export default function Hero({ language, translations }: HeroProps) {
                                     <div className="icon-circle">
                                         <i className="fas fa-phone-alt text-sm"></i>
                                     </div>
-                                    <span className="text-sm">+261 34 47 237 02</span>
+                                    <span className="text-sm">+261 34 47 237 02 / +261 34 20 348 90</span>
                                 </div>
                                 <div className="flex items-center space-x-4 group hover:translate-x-2 transition">
                                     <div className="icon-circle">

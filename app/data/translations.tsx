@@ -16,6 +16,7 @@ export const translations: Translations = {
         'hero-experience': '4+ years of experience',
         'hero-description': 'Full Stack Developer passionate about creating performant and scalable web applications.',
         'hero-cta': 'Contact me',
+        'cv-link': '/cv/ny_aina_fitiavana_fitahiantsoa_cv-en.pdf',
         'hero-download': 'Download CV',
 
         // About
@@ -135,6 +136,7 @@ export const translations: Translations = {
         'hero-description': 'Développeur Full Stack passionné par la création d\'applications web performantes et scalables.',
         'hero-cta': 'Me contacter',
         'hero-download': 'Télécharger CV',
+        'cv-link': '/cv/ny_aina_fitiavana_fitahiantsoa_cv-fr.pdf',
 
         // About
         'about-badge': 'À propos',
