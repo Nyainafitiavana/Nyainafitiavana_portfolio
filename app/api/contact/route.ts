@@ -1,38 +1,56 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
+import nodemailer from 'nodemailer';
 
-const to = process.env.CONTACT_EMAIL ?? "ainafitiavana.project@gmail.com";
+export async function POST(request: Request) {
+  try {
+    const body = await request.json();
+    const { name, email, message } = body;
 
-export async function POST(request: NextRequest) {
-  const body = await request.json().catch(() => null);
+    // Validation
+    if (!name || !email || !message) {
+      return NextResponse.json(
+          { error: 'Tous les champs sont requis' },
+          { status: 400 }
+      );
+    }
 
-  if (!body?.name || !body?.email || !body?.subject || !body?.message) {
-    return NextResponse.json({ error: "Missing fields" }, { status: 400 });
-  }
-
-  const subject = `[Portfolio] ${body.subject}`;
-  const text = `Nom: ${body.name}\nEmail: ${body.email}\n\n${body.message}`;
-
-  if (process.env.RESEND_API_KEY) {
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
-        "Content-Type": "application/json"
+    // Configuration SMTP Gmail
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.gmail.com',
+      port: 587,
+      secure: false,
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_APP_PASSWORD,
       },
-      body: JSON.stringify({
-        from: process.env.CONTACT_FROM ?? "Portfolio <onboarding@resend.dev>",
-        to,
-        subject,
-        text,
-        reply_to: body.email
-      })
     });
 
-    if (response.ok) {
-      return NextResponse.json({ ok: true });
-    }
-  }
+    // Email à vous-même
+    await transporter.sendMail({
+      from: `"Portfolio Contact" <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER,
+      replyTo: email,
+      subject: `Nouveau message de ${name}`,
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <h2 style="color: #4f46e5;">Nouveau message de contact</h2>
+          <p><strong>Nom:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Message:</strong></p>
+          <p style="background: #f3f4f6; padding: 1rem; border-radius: 0.5rem;">${message}</p>
+        </div>
+      `,
+    });
 
-  const mailto = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
-  return NextResponse.json({ ok: true, mailto });
+    return NextResponse.json(
+        { success: true, message: 'Email envoyé avec succès' },
+        { status: 200 }
+    );
+  } catch (error) {
+    console.error('Erreur lors de l\'envoi:', error);
+    return NextResponse.json(
+        { error: 'Erreur lors de l\'envoi du message' },
+        { status: 500 }
+    );
+  }
 }
