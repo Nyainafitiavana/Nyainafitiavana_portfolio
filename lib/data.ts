@@ -169,11 +169,11 @@ export const education: Record<Lang, string[]> = {
     fr: [
         "Master 2 - Management et Informatique Appliquee a la Gestion, ESMIA (2025)",
         "Licence - Informatique Risque et Decision, ESMIA (2023)",
-        "Duolingo English Test - Anglais professionnel (2025)"
+        "Duolingo English Test - Anglais professionnel (2026)"
     ],
     en: [
         "Master's Degree - Management and Applied Computer Science, ESMIA (2025)",
         "Bachelor's Degree - Computer Science, Risk and Decision, ESMIA (2023)",
-        "Duolingo English Test - Professional English (2025)"
+        "Duolingo English Test - Professional English (2026)"
     ]
 };

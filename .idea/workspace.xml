@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3327cb0b-b032-4531-9402-72867a55abcb" name="Changes" comment="up new version">
-      <change afterPath="$PROJECT_DIR$/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Experience.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/ContactLine.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/InfoPanel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/Section.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_en.pdf" afterDir="false" />
+    <list default="true" id="3327cb0b-b032-4531-9402-72867a55abcb" name="Changes" comment="Update code and separate home to multi components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_fr.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_fr.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000009968337" />
-      <entry key="MS500" value="1.0251029373996636" />
-      <entry key="S2" value="1.3990469603952975" />
-      <entry key="S5" value="1.7618465428002645" />
-      <entry key="S10" value="2.2201777391328825" />
-      <entry key="S30" value="3.7866795873135444" />
-      <entry key="S60" value="4.959003743888414" />
-      <entry key="M2" value="6.072092656504997" />
-      <entry key="M5" value="8.814497933897929" />
-      <entry key="M10" value="12.936384498603221" />
-      <entry key="M15" value="16.159301390530715" />
-      <entry key="M30" value="22.349529788521025" />
-      <entry key="H1" value="27.93657068284259" />
-      <entry key="H2" value="31.890306666159677" />
-      <entry key="H4" value="34.27676395604266" />
-      <entry key="D1" value="36.5203452673637" />
-      <entry key="W1" value="36.930812417448" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.00000091792334" />
+      <entry key="S60" value="1.0036889472588433" />
+      <entry key="M2" value="1.2542400837581922" />
+      <entry key="M5" value="4.7452180034265785" />
+      <entry key="M10" value="11.631075881384653" />
+      <entry key="M15" value="17.071234396045583" />
+      <entry key="M30" value="27.359416115346303" />
+      <entry key="H1" value="36.637213760078915" />
+      <entry key="H2" value="43.279101304900706" />
+      <entry key="H4" value="47.33139165230542" />
+      <entry key="D1" value="51.17414038523866" />
+      <entry key="W1" value="51.88077895042937" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.150962926986311E-183" />
-      <entry key="MS500" value="2.583522611970111E-37" />
-      <entry key="S2" value="7.129401394679155E-10" />
-      <entry key="S5" value="2.1939222200449668E-4" />
-      <entry key="S10" value="0.014811894612254541" />
-      <entry key="S30" value="0.2455968635018283" />
-      <entry key="S60" value="0.4989009679341207" />
-      <entry key="M2" value="0.7696312072042547" />
-      <entry key="M5" value="1.5294825310161009" />
-      <entry key="M10" value="2.8298622923542642" />
-      <entry key="M15" value="3.7889434868929" />
-      <entry key="M30" value="5.346641870239465" />
-      <entry key="H1" value="6.489656084284255" />
-      <entry key="H2" value="7.191014278253762" />
-      <entry key="H4" value="7.580894551572193" />
-      <entry key="D1" value="7.928011808188248" />
-      <entry key="W1" value="7.989662157340667" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.751466856154453E-147" />
+      <entry key="S5" value="3.190887175829644E-59" />
+      <entry key="S10" value="5.648793832164711E-30" />
+      <entry key="S30" value="1.781029801572279E-10" />
+      <entry key="S60" value="1.3435026632658214E-5" />
+      <entry key="M2" value="0.003993877700181475" />
+      <entry key="M5" value="0.18646157920566583" />
+      <entry key="M10" value="0.9880700169047891" />
+      <entry key="M15" value="1.87873880923857" />
+      <entry key="M30" value="3.7649155110313406" />
+      <entry key="H1" value="5.445763189096693" />
+      <entry key="H2" value="6.587318858825748" />
+      <entry key="H4" value="7.255706773847686" />
+      <entry key="D1" value="7.870291768865461" />
+      <entry key="W1" value="7.981326270482791" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5797758051388572E-5" />
-      <entry key="MS500" value="0.12498560117253246" />
-      <entry key="S2" value="0.9284283521641327" />
-      <entry key="S5" value="1.523281130760339" />
-      <entry key="S10" value="2.087332591921298" />
-      <entry key="S30" value="3.939072214359047" />
-      <entry key="S60" value="5.391474657671307" />
-      <entry key="M2" value="6.799346757350571" />
-      <entry key="M5" value="10.320001475173692" />
-      <entry key="M10" value="15.749507615432663" />
-      <entry key="M15" value="19.934824914029427" />
-      <entry key="M30" value="27.687570838808185" />
-      <entry key="H1" value="34.42119549960848" />
-      <entry key="H2" value="39.07857162145975" />
-      <entry key="H4" value="41.85621720816191" />
-      <entry key="D1" value="44.448106794899225" />
-      <entry key="W1" value="44.920438562533455" />
+      <entry key="MS100" value="0.006129563264818364" />
+      <entry key="MS500" value="0.36098229888062405" />
+      <entry key="S2" value="0.7751245221017236" />
+      <entry key="S5" value="0.9031265101518223" />
+      <entry key="S10" value="0.9503296849787564" />
+      <entry key="S30" value="0.9831621951094994" />
+      <entry key="S60" value="0.9952451680123564" />
+      <entry key="M2" value="1.2537675145337963" />
+      <entry key="M5" value="4.9270114701463" />
+      <entry key="M10" value="12.612397545404006" />
+      <entry key="M15" value="18.94270472075683" />
+      <entry key="M30" value="31.117960395584557" />
+      <entry key="H1" value="42.07859519838712" />
+      <entry key="H2" value="49.86382110059922" />
+      <entry key="H4" value="54.585678504815306" />
+      <entry key="D1" value="59.044176929638496" />
+      <entry key="W1" value="59.86206827904403" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -194,7 +178,7 @@
       <workItem from="1782455980050" duration="1602000" />
       <workItem from="1782461545506" duration="193000" />
       <workItem from="1782807219696" duration="1117000" />
-      <workItem from="1786515926485" duration="4818000" />
+      <workItem from="1786515926485" duration="5582000" />
     </task>
     <task id="LOCAL-00001" summary="up new version">
       <option name="closed" value="true" />
@@ -204,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782461025312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update code and separate home to multi components">
+      <option name="closed" value="true" />
+      <created>1786520891686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786520891686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove all files" />
     <MESSAGE value="up new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="up new version" />
+    <MESSAGE value="Update code and separate home to multi components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code and separate home to multi components" />
   </component>
 </project>
