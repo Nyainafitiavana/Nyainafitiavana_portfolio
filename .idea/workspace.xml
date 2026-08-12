@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3327cb0b-b032-4531-9402-72867a55abcb" name="Changes" comment="up new version">
+      <change afterPath="$PROJECT_DIR$/components/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Experience.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/ContactLine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/InfoPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_en.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/contact/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/contact/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_fr.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/CV_Ny_Aina_Fitiavana_Fitahiantsoa_fr.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,9 +44,75 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Nyainafitiavana/Nyainafitiavana_portfolio.git&quot;,
-    &quot;accountId&quot;: &quot;424a4c4b-0555-4bae-859a-6982c952d6d4&quot;
+    &quot;accountId&quot;: &quot;1fec8683-58be-4330-9f97-effd546308f4&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000009968337" />
+      <entry key="MS500" value="1.0251029373996636" />
+      <entry key="S2" value="1.3990469603952975" />
+      <entry key="S5" value="1.7618465428002645" />
+      <entry key="S10" value="2.2201777391328825" />
+      <entry key="S30" value="3.7866795873135444" />
+      <entry key="S60" value="4.959003743888414" />
+      <entry key="M2" value="6.072092656504997" />
+      <entry key="M5" value="8.814497933897929" />
+      <entry key="M10" value="12.936384498603221" />
+      <entry key="M15" value="16.159301390530715" />
+      <entry key="M30" value="22.349529788521025" />
+      <entry key="H1" value="27.93657068284259" />
+      <entry key="H2" value="31.890306666159677" />
+      <entry key="H4" value="34.27676395604266" />
+      <entry key="D1" value="36.5203452673637" />
+      <entry key="W1" value="36.930812417448" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.150962926986311E-183" />
+      <entry key="MS500" value="2.583522611970111E-37" />
+      <entry key="S2" value="7.129401394679155E-10" />
+      <entry key="S5" value="2.1939222200449668E-4" />
+      <entry key="S10" value="0.014811894612254541" />
+      <entry key="S30" value="0.2455968635018283" />
+      <entry key="S60" value="0.4989009679341207" />
+      <entry key="M2" value="0.7696312072042547" />
+      <entry key="M5" value="1.5294825310161009" />
+      <entry key="M10" value="2.8298622923542642" />
+      <entry key="M15" value="3.7889434868929" />
+      <entry key="M30" value="5.346641870239465" />
+      <entry key="H1" value="6.489656084284255" />
+      <entry key="H2" value="7.191014278253762" />
+      <entry key="H4" value="7.580894551572193" />
+      <entry key="D1" value="7.928011808188248" />
+      <entry key="W1" value="7.989662157340667" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5797758051388572E-5" />
+      <entry key="MS500" value="0.12498560117253246" />
+      <entry key="S2" value="0.9284283521641327" />
+      <entry key="S5" value="1.523281130760339" />
+      <entry key="S10" value="2.087332591921298" />
+      <entry key="S30" value="3.939072214359047" />
+      <entry key="S60" value="5.391474657671307" />
+      <entry key="M2" value="6.799346757350571" />
+      <entry key="M5" value="10.320001475173692" />
+      <entry key="M10" value="15.749507615432663" />
+      <entry key="M15" value="19.934824914029427" />
+      <entry key="M30" value="27.687570838808185" />
+      <entry key="H1" value="34.42119549960848" />
+      <entry key="H2" value="39.07857162145975" />
+      <entry key="H4" value="41.85621720816191" />
+      <entry key="D1" value="44.448106794899225" />
+      <entry key="W1" value="44.920438562533455" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -34,23 +121,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/Users/Fitiavana/Documents/Portfolio",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Fitiavana\\Documents\\portfolio-nextjs\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DEV/Nyainafitiavana_portfolio/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Fitiavana\\AppData\\Local\\JetBrains\\WebStorm2026.2\\ts-go-native-preview\\v7.0.0-dev.jetbrains.20260702.4\\node_modules\\@typescript\\native-preview-win32-x64\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\components" />
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\components" />
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\lib" />
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\components\ui" />
+      <recent name="D:\DEV\Nyainafitiavana_portfolio" />
+      <recent name="D:\DEV\Nyainafitiavana_portfolio\app" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -69,7 +180,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.259" />
       </set>
     </attachedChunks>
   </component>
@@ -83,6 +194,7 @@
       <workItem from="1782455980050" duration="1602000" />
       <workItem from="1782461545506" duration="193000" />
       <workItem from="1782807219696" duration="1117000" />
+      <workItem from="1786515926485" duration="4818000" />
     </task>
     <task id="LOCAL-00001" summary="up new version">
       <option name="closed" value="true" />
